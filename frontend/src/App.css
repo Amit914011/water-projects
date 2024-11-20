@@ -1,0 +1,154 @@
+/* Container Styles */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.tab.active {
+  background-color: #009688;
+  color: #fff;
+}
+
+.form-wrapper {
+  perspective: 1000px;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: transform 0.6s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+.form-side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.front {
+  transform: rotateY(0);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.input-block {
+  margin-bottom: 15px;
+}
+
+.input-block label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-block input,
+.input-block select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Optional: for spacing between country code and phone input */
+}
+
+.country-code,
+.phone-number {
+  flex: 1;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #00796b;
+}
+
+
+.password-input-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 14px;
+  color: #099da7; /* Customize as needed */
+}
+.extra-links {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.forgot-password-link,
+.create-account-link {
+  color: #099da7; /* Customize the color as needed */
+  text-decoration: none;
+}
+
+.forgot-password-link:hover,
+.create-account-link:hover {
+  text-decoration: underline;
+}
+
+.extra-links p {
+  margin: 5px 0;
+}
+
+
+
+
+
+
+
+/* card css */
