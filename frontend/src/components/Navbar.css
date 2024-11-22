@@ -168,9 +168,7 @@ color: white;
 .language li:hover .sublanguage{
     display: block;
 }
-.sublanguage li:hover{
-    /* background-color: gray; */
-}
+
 /* Style the scrollbar of .sublanguage class */
 .sublanguage::-webkit-scrollbar {
     width: 5px; /* Width of the scrollbar */
@@ -204,7 +202,7 @@ color: white;
 
 
 
-  
+
   /* Mobile menu */
   .mobileMenu{
     
