@@ -23,17 +23,17 @@ export default function CardDetails() {
 
   // Set up other content dynamically
   const balanceSummery = (
-    <button className="uppercase bg-[#bee9d2] text-white py-2 px-4 rounded-lg font-bold">
+    <button className="uppercase bg-[#A5C7A8] text-white py-2 px-4 rounded-lg font-bold">
       Balance Summary
     </button>
   );
   const transfer = (
-    <button className="uppercase  bg-[#bee9d2] text-white py-2 px-4 rounded-lg font-bold">
+    <button className="uppercase  bg-[#A5C7A8] text-white py-2 px-4 rounded-lg font-bold">
       Transfer
     </button>
   );
   const withdraw = (
-    <button className="uppercase  bg-[#bee9d2] text-white py-2 px-4 rounded-lg font-bold">
+    <button className="uppercase  bg-[#A5C7A8] text-white py-2 px-4 rounded-lg font-bold">
       Withdraw
     </button>
   );
@@ -41,14 +41,14 @@ export default function CardDetails() {
   return (
     <>
       {/* Display header image */}
-      <img src={image1} alt="Withdraw Banner" className="m-auto mt-5" />
+      <img src={image1} alt="Withdraw Banner" className="m-auto mt-36" />
 
       {/* Grid of Card components */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 px-14 mt-5 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-14 mt-5 gap-5">
         {/* Card for Step 1 */}
         <Card
           image={images[0]}
-          paragraph="Log in to your account at [Company Name]"
+          paragraph="Log in to your account at Mahzooz India"
           index="1"
         />
 

@@ -8,8 +8,8 @@
   }
   .bc {
     background: linear-gradient(white, white) padding-box,
-    linear-gradient(to right, darkblue, darkorchid) border-box;
-    border-radius: 10px;
+    linear-gradient(to right, #42A9FB, #D4E094) border-box;
+    border-radius: 3px;
     border: 4px solid transparent;
   }
 }

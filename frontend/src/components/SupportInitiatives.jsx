@@ -16,7 +16,7 @@ export default function SupportInitiatives() {
     ]
 
   return (
-    <div className='pb-10'>
+    <div className='pb-10 mt-36'>
     <div className='m-auto mt-10'>
         <img src={image} alt="" className='m-auto'/>
     </div>

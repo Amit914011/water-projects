@@ -54,15 +54,12 @@ export default function Login() {
     if (validateForm()) {
       // Handle form submission (log the data to console)
       console.log("Form submitted!");
-      console.log("Email:", email);
-      console.log("Phone:", phone);
-      console.log("Password:", password);
-      console.log("Country Code:", countryCode);
+      
     }
   };
 
   return (
-    <div className="login-container">
+    <div className="login-container w-[400px] m-auto mt-44 mb-6">
       <div className="tabs">
         <button
           className={`tab ${activeTab === "email" ? "active" : ""}`}
