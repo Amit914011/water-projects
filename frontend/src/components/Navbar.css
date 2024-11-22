@@ -200,17 +200,11 @@ color: white;
     transform: rotate(-180deg);
     -webkit-transform: rotate(-180deg);
   }
-  @media (min-width: 1440px){
-    .logo{
-        width: 600px;
-    }
-  }
 
 
 
 
-
-
+  
   /* Mobile menu */
   .mobileMenu{
     

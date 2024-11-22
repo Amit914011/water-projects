@@ -137,7 +137,7 @@ export default function Navbar() {
             
        </div>
        </div>
-       <div className={`w-[50vw] sm:w-[40vw] h-[100vh] overflow-auto border mobileMenu ${show}`}>
+       <div className={`w-[70vw] sm:w-[60vw] h-[100vh] overflow-auto border mobileMenu ${show}`}>
        <MdClose className="absolute top-[20px] text-2xl cursor-pointer" onClick={()=>{setShow('')}}/>
                 <ul className="mainMobileMenu z-50">
                     <li className="hover:bg-blue-50 "><a href="#" className="block pl-2">Buy Now</a></li>
